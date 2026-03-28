@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arshi Portfolio Ultra</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body {
+  margin:0;
+  font-family:'Poppins', sans-serif;
+  background:#020617;
+  color:white;
+  scroll-behavior:smooth;
+}
+header {
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:rgba(0,0,0,0.7);
+  position:fixed;
+  width:100%;
+  z-index:1000;
+}
+nav a {
+  margin-left:20px;
+  color:white;
+  text-decoration:none;
+}
+.hero {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#0f172a,#020617);
+  text-align:center;
+}
+.hero h2 {font-size:45px;}
+.btn {
+  margin-top:20px;
+  padding:12px 30px;
+  background:#22c55e;
+  color:black;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.section {
+  padding:100px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+.projects {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+.card {
+  background:#1e293b;
+  border-radius:15px;
+  overflow:hidden;
+  transition:0.4s;
+}
+.card:hover {transform:translateY(-10px) scale(1.05);}
+.card img {
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+.card p {padding:15px;}
+.testimonials {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+.testimonial {
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+}
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:15px;
+  border-radius:50%;
+  text-decoration:none;
+  font-size:20px;
+}
+footer {
+  text-align:center;
+  padding:30px;
+  background:#020617;
+}
+</style>
+</head>
+<body><header>
+  <h2>Arshi</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <h2>Creative Designer 🚀</h2>
+  <p>I build designs that attract attention & grow brands</p>
+  <a href="#contact" class="btn">Hire Me</a>
+</section><section class="section" id="about">
+  <h2>About Me</h2>
+  <p>I help brands stand out with modern and creative design solutions. Specialized in social media, branding & ads.</p>
+</section><section class="section" id="work">
+  <h2>My Work</h2>
+  <div class="projects">
+    <div class="card">
+      <img src="https://via.placeholder.com/400">
+      <p>Social Media Design</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400">
+      <p>Logo Design</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400">
+      <p>Ad Creative</p>
+    </div>
+  </div>
+</section><section class="section">
+  <h2>Testimonials</h2>
+  <div class="testimonials">
+    <div class="testimonial">"Best designer I worked with!"</div>
+    <div class="testimonial">"Creative and fast delivery"</div>
+  </div>
+</section><section class="section" id="contact">
+  <h2>Contact</h2>
+  <p>Email: example@gmail.com</p>
+  <p>Instagram: @yourhandle</p>
+</section><a href="https://wa.me/919876543210" class="whatsapp">💬</a>
+
+<footer>
+  <p>© 2026 Arshi Portfolio</p>
+</footer></body>
+</html>
